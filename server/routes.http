@@ -1,2 +1,41 @@
 # @name test
 GET http://localhost:3333/test
+
+###
+
+# @name get_all_memories
+GET http://localhost:3333/memories
+
+###
+
+# @name get_memory
+GET http://localhost:3333/memories/0ec05448-577a-47da-b1b5-2bfc9c295970
+
+###
+
+# @name create_memory
+POST http://localhost:3333/memories
+Content-Type: application/json
+
+{
+    "content": "a",
+    "coverUrl": "Afdsasdf",
+    "isPublic": 0
+}
+
+###
+
+# @name update_memory
+PUT http://localhost:3333/memories/0ec05448-577a-47da-b1b5-2bfc9c295970
+Content-Type: application/json
+
+{
+    "content": "Agora sou uma memória real",
+    "coverUrl": "rararar",
+    "isPublic": 1
+}
+
+###
+
+# @name delete_memory
+DELETE  http://localhost:3333/memories/0ec05448-577a-47da-b1b5-2bfc9c295970
