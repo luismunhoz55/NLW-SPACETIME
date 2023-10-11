@@ -39,3 +39,12 @@ Content-Type: application/json
 
 # @name delete_memory
 DELETE  http://localhost:3333/memories/0ec05448-577a-47da-b1b5-2bfc9c295970
+
+###
+
+POST http://localhost:3333/register
+Content-Type: application/json
+
+{
+    "code": "50f78d1044c66296f513"
+}
