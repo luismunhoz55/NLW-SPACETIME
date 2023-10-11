@@ -5,6 +5,7 @@ GET http://localhost:3333/test
 
 # @name get_all_memories
 GET http://localhost:3333/memories
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTHVpcyBNdW5ob3oiLCJhdmF0YXJVcmwiOiJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTIzOTczMzk4P3Y9NCIsInN1YiI6ImJiZTdjOGZjLWE2YjMtNDc5YS1hMTg3LWU1NDEzM2JiYTRjYiIsImlhdCI6MTY5NzA0MTQ1NywiZXhwIjoxNjk5NjMzNDU3fQ.3JZIor7yQm-kvV5BFHHRgFYvPoVleYYwUCyD7BzgQo0
 
 ###
 
@@ -16,10 +17,11 @@ GET http://localhost:3333/memories/0ec05448-577a-47da-b1b5-2bfc9c295970
 # @name create_memory
 POST http://localhost:3333/memories
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTHVpcyBNdW5ob3oiLCJhdmF0YXJVcmwiOiJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTIzOTczMzk4P3Y9NCIsInN1YiI6ImJiZTdjOGZjLWE2YjMtNDc5YS1hMTg3LWU1NDEzM2JiYTRjYiIsImlhdCI6MTY5NzA0MTQ1NywiZXhwIjoxNjk5NjMzNDU3fQ.3JZIor7yQm-kvV5BFHHRgFYvPoVleYYwUCyD7BzgQo0
 
 {
-    "content": "a",
-    "coverUrl": "Afdsasdf",
+    "content": "Viado",
+    "coverUrl": "rararar",
     "isPublic": 0
 }
 
@@ -46,5 +48,5 @@ POST http://localhost:3333/register
 Content-Type: application/json
 
 {
-    "code": "50f78d1044c66296f513"
+    "code": "a6909e58d5f71e8d348f"
 }
