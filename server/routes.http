@@ -20,8 +20,8 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTHVpcyBNdW5ob3oiLCJhdmF0YXJVcmwiOiJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMTIzOTczMzk4P3Y9NCIsInN1YiI6ImJiZTdjOGZjLWE2YjMtNDc5YS1hMTg3LWU1NDEzM2JiYTRjYiIsImlhdCI6MTY5NzA0MTQ1NywiZXhwIjoxNjk5NjMzNDU3fQ.3JZIor7yQm-kvV5BFHHRgFYvPoVleYYwUCyD7BzgQo0
 
 {
-    "content": "Viado",
-    "coverUrl": "rararar",
+    "content": "Teste",
+    "coverUrl": "Este é um teste",
     "isPublic": 0
 }
 
@@ -33,7 +33,7 @@ Content-Type: application/json
 
 {
     "content": "Agora sou uma memória real",
-    "coverUrl": "rararar",
+    "coverUrl": "uau",
     "isPublic": 1
 }
 
